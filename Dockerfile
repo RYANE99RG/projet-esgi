@@ -1,5 +1,5 @@
 # Utilisation de l'image Java 17 légère
-FROM amazoncorretto:17-alpine
+FROM openjdk:17-jdk-slim
 
 # Définir le répertoire de travail
 WORKDIR /app
